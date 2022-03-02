@@ -1,0 +1,41 @@
+[{
+  "tech_stack": "programming-languages",
+  "label": "Programming Languages",
+  "skills": [
+    "Java",
+    "JavaScript",
+    "C",
+    "C++"
+  ]
+},{
+  "tech_stack": "front-end",
+  "label": "Web Front End",
+  "skills": [
+    "React",
+    "HTML5",
+    "CSS3",
+    "Telwind CSS",
+    "Laravel Mix",
+    "Bootstrap"
+  ]
+},{
+  "tech_stack": "back-end",
+  "label": "Web Back End",
+  "skills": [
+    "Node.js",
+    "Express"
+  ]
+},{
+  "tech_stack": "databases",
+  "label": "Databases",
+  "skills": [
+    "MongoDB",
+    "MySQL"
+    
+  ]
+},{
+  "skills": [
+    "Amazon AWS"
+  ]
+}
+]
