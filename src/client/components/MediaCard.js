@@ -114,10 +114,10 @@ export default function MediaCard() {
 import React from 'react';
 import { Card, Button, CardImg, CardTitle, CardText, CardDeck,
  CardSubtitle, CardBody, CardLink } from 'reactstrap';
-import pimg from '../images/pizzathumb.png';
+import pimg from '../images/pizza.png';
 import bimg from '../images/blogging.png';
-import phoimg from '../images/phothumb.png';
-import Eimg from '../images/ecomthumb.png';
+import phoimg from '../images/photo.png';
+import Eimg from '../images/ecom.png';
 
 const MediaCard = (props) => {
   return (
