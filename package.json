@@ -70,7 +70,7 @@
   },
   "engines": {
     "npm": "8.3.2",
-    "node": "17.2.0"
+    "node": "17.0.0"
   },
   "browserslist": {
     "production": [
