@@ -1048,7 +1048,13 @@ html, body {
   }
   .Myproject{
     display: block;
-   
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+
+  }
+  .cardb.carde .cardpho.cardp{
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
   }
    
   .MuiPaper-root{

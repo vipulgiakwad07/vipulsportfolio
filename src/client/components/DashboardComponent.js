@@ -14,7 +14,7 @@ class DashboardComponent extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            tabItem: ['HOME', 'SKILLS', 'PROJECTS', 'ABOUT ME','CONTACTS'],
+            tabItem: ['HOME', 'SKILLS', 'PROJECTS', 'ABOUT ME', 'CONTACTS'],
             selectedItem: 'HOME'
         }
     }
@@ -51,8 +51,14 @@ class DashboardComponent extends React.Component {
                 <BlogsComponent />
             )
         }
-    }
+        if (tabItem === 'CONTACTS') {
+            return (
+                <ContactsComponent  />
+            )
+        }
 
+    }
+  
     render() {
         return (
             <div className={'dashboard-parent-container'}>
