@@ -53,7 +53,7 @@ class SkillSetsComponent extends React.Component {
             <div className={'skills-parent-container'}>
                 {this.renderTechStacks(results)}
                 <div className={'skills-mobile-gap'}></div>
-              {/* <table>
+              <table>
                <tc>
                 <tr><div className={'skill-round'}>react </div></tr>
                 <tr> <div className={'skill-round'}>Node</div> </tr>
@@ -69,7 +69,7 @@ class SkillSetsComponent extends React.Component {
                     <tr><div className={'skill-round'}>Laravel Mix</div></tr>
                 </tc>
                 
-              </table> */}
+              </table> 
             </div>
         );
     }
