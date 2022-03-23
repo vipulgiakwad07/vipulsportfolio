@@ -95,7 +95,7 @@ class BlogsComponent extends React.Component {
                  user experience design, inerfaces and web development  </p>
                    
             
-                <div className='aboutme-grid'>
+              /*  <div className='aboutme-grid'>
                 
                 <div>
                 <ul>
@@ -120,7 +120,7 @@ class BlogsComponent extends React.Component {
                 </div>
 
                   
-                </div>
+                </div> */
                
              </div>
         );
