@@ -50,7 +50,10 @@ class BlogsComponent extends React.Component {
                   
                 </div>
                 
-                 /*  <div className='aboutme-grid'>
+                
+                
+                
+                <div className='aboutme-grid'>
                 
                 <div>
                 <ul>
@@ -75,7 +78,9 @@ class BlogsComponent extends React.Component {
                 </div>
 
                   
-                </div> */
+                </div>
+                
+                
                
              </div>
         );
