@@ -49,6 +49,33 @@ class BlogsComponent extends React.Component {
 
                   
                 </div>
+                
+                 /*  <div className='aboutme-grid'>
+                
+                <div>
+                <ul>
+                      <h4>Positives</h4>
+                      <li><p>Patience</p></li>
+                      <li><p>Good Communication skill </p></li>
+                      </ul>
+                </div>
+                <div>
+                <ul>
+                      <h4>Negatives</h4>
+                      <li><p>Emotional</p></li>
+                      <li><p>Bad Handwriting </p></li>
+                      </ul>
+                </div>
+                <div>
+                <ul>
+                      <h4>Hobbies</h4>
+                      <li><p>Playing Chess</p></li>
+                      <li><p>Watching Cricket</p></li>
+                      </ul>
+                </div>
+
+                  
+                </div> */
                
              </div>
         );
@@ -92,36 +119,7 @@ class BlogsComponent extends React.Component {
             
             <p>  A self-tought developer. I'am enthusiastic about lerning new skills, 
                  expandiing my knowledge, and leveraging my learnings. I enjoy creating 
-                 user experience design, inerfaces and web development  </p>
-                   
-            
-              /*  <div className='aboutme-grid'>
-                
-                <div>
-                <ul>
-                      <h4>Positives</h4>
-                      <li><p>Patience</p></li>
-                      <li><p>Good Communication skill </p></li>
-                      </ul>
-                </div>
-                <div>
-                <ul>
-                      <h4>Negatives</h4>
-                      <li><p>Emotional</p></li>
-                      <li><p>Bad Handwriting </p></li>
-                      </ul>
-                </div>
-                <div>
-                <ul>
-                      <h4>Hobbies</h4>
-                      <li><p>Playing Chess</p></li>
-                      <li><p>Watching Cricket</p></li>
-                      </ul>
-                </div>
-
-                  
-                </div> */
-               
+                 user experience design, inerfaces and web development  </p> 
              </div>
         );
     }
