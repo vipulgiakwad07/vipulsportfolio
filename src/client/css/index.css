@@ -1048,7 +1048,7 @@ html, body {
   }
 	
   .Myproject{
-   
+    display: block;
     margin-bottom: 1rem;
     margin-top: 1rem;
     padding-bottom: 2rem;	  
