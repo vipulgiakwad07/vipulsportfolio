@@ -1046,10 +1046,12 @@ html, body {
   .skills-item-container-hide {
     display: none;
   }
+	
   .Myproject{
     display: block;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    padding-bottom: 2rem;	  
 
   }
   .cardb.carde .cardpho.cardp{
@@ -1257,7 +1259,7 @@ html, body {
   
   
   .blogs-parent-container {
-    width: 100vw;
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -1271,9 +1273,9 @@ html, body {
   .blogs-parent-contents-container {
     width: 100%;
     height: auto;
-    position: absolute;
+  /*  position: absolute;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; */
     justify-content: center;
     align-items: center;
     background:white;
