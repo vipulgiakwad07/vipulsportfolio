@@ -1048,7 +1048,7 @@ html, body {
   }
 	
   .Myproject{
-    display: flex;
+    display: block;
     margin-bottom: 1rem;
     margin-top: 1rem;
     padding-bottom: 2rem;	  
@@ -1271,6 +1271,7 @@ html, body {
   }
 
   .blogs-parent-contents-container {
+    padding-top:2rem;	  
     width: 100%;
     height: auto;
     position: absolute;
