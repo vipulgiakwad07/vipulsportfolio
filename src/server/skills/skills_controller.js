@@ -2,8 +2,9 @@ var express = require("express");
 var router = express.Router();
 var mongoose = require("mongoose");
 var PORT;
+var Url;
 var Skills = require("./skills_schema");
-mongoose.connect(`https://vipulsportfolio.herokuapp.com/#skills`, {
+mongoose.connect(`Url`, {
     /*  mongodb://127.0.0.1:27017/portfolio 
         mongodb+srv://vipul:<password>@cluster0.3v2rv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
         process.env.PORT
