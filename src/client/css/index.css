@@ -1056,15 +1056,17 @@ html, body {
 	
   .cardb{
     padding-bottom: 1rem;
-   
+    margin-top: 1rem;
   }
 	
    .carde{
     padding-bottom: 1rem;
+    margin-top: 1rem;
   }
  
  .cardpho{
     padding-bottom: 1rem;
+    margin-top: 1rem;	 
   }
    
    .cardp{
