@@ -129,7 +129,7 @@ const MediaCard = (props) => {
           <CardTitle>Pizza Ordering App</CardTitle>
           
           <CardText>This app allow users to order various types of Pizza amongst list and provide cash on                delivery and pay by card option using Stripe payment .This is full stack project build on       React Node Mongo and Express.</CardText>
-          <ul>
+          <ul className='stick-bottom'>
         <li>
       <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
       <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frountEnd</a></li>
@@ -145,7 +145,7 @@ const MediaCard = (props) => {
           <CardText>
   In which user share users thoughts about a particular subject with readers or publish online journal. Developed using React node mongo Express.
 </CardText>
-          <ul>
+          <ul className='stick-bottom'>
         <li>
       <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
       <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frountEnd</a></li>
@@ -160,7 +160,7 @@ const MediaCard = (props) => {
           
           <CardText>A website that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location. Developed using React node mongo express.
 </CardText>
-          <ul>
+          <ul className='stick-bottom'>
         <li>
       <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
       <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frountEnd</a></li>
@@ -175,7 +175,7 @@ const MediaCard = (props) => {
       <CardText>
       This app allow users to share their photos on web by uploading and let show to all friends and allow them to like ,user also follow and let other friends allow to follow user this app is developed using React Node Express and Mongo .
       </CardText>
-      <ul>
+      <ul className='stick-bottom'>
          <li>
       <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
       <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frountEnd</a></li>
