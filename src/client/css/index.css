@@ -1051,13 +1051,28 @@ html, body {
     display: block;
     margin-bottom: 1rem;
     margin-top: 1rem;
-    padding-bottom: 2rem;	  
-
+    padding-bottom: 2rem;
   }
-  .cardb.carde .cardpho.cardp{
+	
+  .cardb{
     padding-bottom: 1rem;
-    margin-bottom: 1rem;
+   
   }
+	
+   .carde{
+    padding-bottom: 1rem;
+  }
+ 
+ .cardpho{
+    padding-bottom: 1rem;
+  }
+   
+   .cardp{
+    padding-bottom: 1rem;
+  }
+   	
+   	
+   
    
   .MuiPaper-root{
     padding-bottom: 1rem;
