@@ -569,7 +569,7 @@ html, body {
 
 .stick-bottom{
   position:absolute;
-  bottom:2cm;
+  top:0cm;
   left:0;
   right:0;
   margin:auto;
