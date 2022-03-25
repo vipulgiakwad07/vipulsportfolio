@@ -131,8 +131,9 @@ const MediaCard = (props) => {
           <CardText>This app allow users to order various types of Pizza amongst list and provide cash on                delivery and pay by card option using Stripe payment .This is full stack project build on       React Node Mongo and Express.</CardText>
           <ul>
         <li>
-      <a href='https://bloggingappheroku.herokuapp.com' target="_blank">Visit Pizza ordering WebApp</a></li>
-      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">Github Source Code</a></li>
+      <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
+      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frountEnd</a></li>
+        <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li>
       </ul>
         </CardBody>
       </Card>
@@ -146,8 +147,9 @@ const MediaCard = (props) => {
 </CardText>
           <ul>
         <li>
-      <a href='https://bloggingappheroku.herokuapp.com' target="_blank">Visit Blogging WebApp</a></li>
-      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">Github Source Code</a></li>
+      <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
+      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frountEnd</a></li>
+        <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li>
       </ul>
         </CardBody>
       </Card >
@@ -160,8 +162,9 @@ const MediaCard = (props) => {
 </CardText>
           <ul>
         <li>
-      <a href='https://bloggingappheroku.herokuapp.com' target="_blank">E-com WebApp</a></li>
-      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">Github Source Code</a></li>
+      <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
+      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frountEnd</a></li>
+        <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li>
       </ul>
         </CardBody>
       </Card>
@@ -173,9 +176,10 @@ const MediaCard = (props) => {
       This app allow users to share their photos on web by uploading and let show to all friends and allow them to like ,user also follow and let other friends allow to follow user this app is developed using React Node Express and Mongo .
       </CardText>
       <ul>
-        <li>
-      <a href='https://bloggingappheroku.herokuapp.com' target="_blank">Visit Photos Sharing WebApp</a></li>
-      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">Github Source Code</a></li>
+         <li>
+      <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
+      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frountEnd</a></li>
+        <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li>
       </ul>
     </CardBody>
       </Card>
