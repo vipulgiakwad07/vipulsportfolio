@@ -1,9 +1,9 @@
 var express = require("express");
 var router = express.Router();
 var mongoose = require("mongoose");
-
+var PORT;
 var Skills = require("./skills_schema");
-mongoose.connect(`https://vipulsportfolio.herokuapp.com/`, {
+mongoose.connect(`process.env.PORT`, {
     /*  mongodb://127.0.0.1:27017/portfolio/ */
     useNewUrlParser: true,
     useUnifiedTopology: true,
