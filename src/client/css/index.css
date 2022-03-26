@@ -334,24 +334,24 @@ html, body {
 
   .cardp{
     background: #d8d0d0;  
-    border: solid black 2px ;  
+    border: solid black 1px ;  
     align-items: center;
   }
   .cardb{
     background: #d8d0d0;
-    border: solid black 2px ;
+    border: solid black 1px ;
     align-items: center;
   }
   .carde{
     
-    border: solid black 2px ;
+    border: solid black 1px ;
     background: #d8d0d0;
     display: center;
   }
   .cardpho{
     background: #d8d0d0;
     align-items: center;
-    border: solid black 2px ;
+    border: solid black 1px ;
     align-items: center;
   }
 
@@ -573,6 +573,7 @@ html, body {
   left:0;
   right:0;
   margin:auto;
+  text-decoration:none;	
 }
 /*************************************************************************/
 
