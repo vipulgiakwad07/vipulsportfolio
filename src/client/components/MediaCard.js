@@ -125,7 +125,7 @@ const MediaCard = (props) => {
     <CardDeck className="Myproject">
       <Card  className="cardp text-center">
         <CardImg top width="100%" src={pimg} alt="Card image cap" />
-        <CardBody className='text-center' style="padding:4px;">
+        <CardBody className='text-center'>
           <CardTitle>Pizza Ordering App</CardTitle>
           
           <CardText>This app allow users to order various types of Pizza amongst list and provide cash on                delivery and pay by card option using Stripe payment .This is full stack project build on       React Node Mongo and Express.</CardText>
