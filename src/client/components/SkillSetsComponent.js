@@ -70,6 +70,14 @@ class SkillSetsComponent extends React.Component {
                 </tc>
                 
               </table> 
+
+                    <div>
+                        <div class="progress">
+                           <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                   50% Complete (info)
+                           </div>
+                           </div>
+                    </div>
             </div>
         );
     }
