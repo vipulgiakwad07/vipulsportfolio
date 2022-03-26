@@ -5,11 +5,8 @@ var PORT;
 var Url;
 var local;
 var Skills = require("./skills_schema");
-mongoose.connect(local, {
-    /*  mongodb://127.0.0.1:27017/portfolio 
-        mongodb+srv://vipul:<password>@cluster0.3v2rv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-        process.env.PORT   `Url`
-    */
+mongoose.connect(`mongodb+srv://cluster0.3v2rv.mongodb.net/myFirstDatabase`, {
+   
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
@@ -24,3 +21,9 @@ router.get("/", (req, res) => {
 });
 
 module.exports = router;
+
+ /*  mongodb://127.0.0.1:27017/portfolio 
+        mongodb+srv://vipul:<password>@cluster0.3v2rv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+        process.env.PORT   `Url`
+        mongodb+srv://cluster0.3v2rv.mongodb.net/myFirstDatabase
+    */
