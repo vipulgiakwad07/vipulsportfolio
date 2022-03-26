@@ -132,7 +132,7 @@ const MediaCard = (props) => {
           <ul className='stick-bottom'>
         <li>
       <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
-      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frountEnd</a></li>
+      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frontEnd</a></li>
         <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li>
       </ul>
         </CardBody>
@@ -148,7 +148,7 @@ const MediaCard = (props) => {
           <ul className='stick-bottom'>
         <li>
       <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
-      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frountEnd</a></li>
+      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frontEnd</a></li>
         <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li>
       </ul>
         </CardBody>
@@ -163,7 +163,7 @@ const MediaCard = (props) => {
           <ul className='stick-bottom'>
         <li>
       <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
-      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frountEnd</a></li>
+      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frontEnd</a></li>
         <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li>
       </ul>
         </CardBody>
@@ -178,7 +178,7 @@ const MediaCard = (props) => {
       <ul className='stick-bottom'>
          <li>
       <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
-      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frountEnd</a></li>
+      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frontEnd</a></li>
         <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li>
       </ul>
     </CardBody>
