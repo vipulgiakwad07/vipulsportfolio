@@ -5,7 +5,7 @@ var PORT;
 var Url;
 var local;
 var Skills = require("./skills_schema");
-mongoose.connect(`mongodb+srv://cluster0.3v2rv.mongodb.net/myFirstDatabase`, {
+mongoose.connect(`mongodb+srv://cluster0.3v2rv.mongodb.net/portfolio`, {
    
     useNewUrlParser: true,
     useUnifiedTopology: true,
