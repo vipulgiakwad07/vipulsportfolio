@@ -58,13 +58,13 @@ class SkillSetsComponent extends React.Component {
                <div className={'myskills'}>
                  <h1>My Skills</h1>
     <p>HTML</p>
-    <div class="container">
-        <div class="skill html">80%</div>
+    <div className="container">
+        <div className="skill html">80%</div>
     </div>
   
     <p>PHP</p>
-    <div class="container">
-        <div class="skill php">60%</div>
+    <div className="container">
+        <div className="skill php">60%</div>
     </div>
                  </div>     
                       
