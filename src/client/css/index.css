@@ -1,5 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+
+ myskills.p {
+            font-size: 20px;
+        }
+      
+        myskills.container {
+            background-color: rgb(192, 192, 192);
+            width: 80%;
+                border-radius: 15px;
+        }
+      
+        myskills.skill {
+            background-color: rgb(116, 194, 92);
+            color: white;
+            padding: 1%;
+            text-align: right;
+            font-size: 20px;
+                border-radius: 15px;
+        }
+      
+        myskills.html {
+            width: 80%;
+        }
+      
+        myskills.php {
+            width: 60%;
+        }
+
+
+
+
+
 html, body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
