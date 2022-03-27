@@ -54,12 +54,19 @@ class SkillSetsComponent extends React.Component {
                 {this.renderTechStacks(results)}
                 <div className={'skills-mobile-gap'}></div>
                  
-                          <div class="progress">
-                         <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"aria-valuemin="0" aria-valuemax="100" style="width:50%">          
-                            50% Complete (info)
-                            </div>
-                          </div>
-
+                      
+               <div className={'myskills'}>
+                 <h1>My Skills</h1>
+    <p>HTML</p>
+    <div class="container">
+        <div class="skill html">80%</div>
+    </div>
+  
+    <p>PHP</p>
+    <div class="container">
+        <div class="skill php">60%</div>
+    </div>
+                 </div>     
                       
 
               <table>
