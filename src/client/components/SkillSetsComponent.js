@@ -65,42 +65,42 @@ class SkillSetsComponent extends React.Component {
                 <div className={'skills-mobile-gap'}></div>
                  
                    
-                                                <table>
-                                   <tc>
-                                        <tr>                   
+                       <table>
+                                <tc>
+                                    <tr>                   
                                         <div>
-                                        <h3 className="heading">Progress Bar</h3>
-                                        <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
+                                            <h3 className="heading">Progress Bar</h3>
+                                            <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
                                        </div>
-                                       </tr>
+                                    </tr>
                                        
-                                        <tr>                   
+                                     <tr>                   
                                         <div>
-                                        <h3 className="heading">Progress Bar</h3>
-                                        <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
+                                            <h3 className="heading">Progress Bar</h3>
+                                            <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
                                        </div>
-                                       </tr>
+                                     </tr>
              
-                                  </tc>
+                                </tc>
                           
-                                  <tc> 
-                                       <tr>
-                                        <div>
-                                        <h3 className="heading">Progress Bar</h3>
-                                        <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
+                                <tc> 
+                                     <tr>
+                                         <div>
+                                              <h3 className="heading">Progress Bar</h3>
+                                              <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
+                                         </div>
+                                     </tr>
+                                   <tr>
+                                       <div>
+                                             <h3 className="heading">Progress Bar</h3>
+                                             <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
                                        </div>
-                                      </tr>
-                                       <tr>
-                                        <div>
-                                        <h3 className="heading">Progress Bar</h3>
-                                        <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
-                                       </div>
-                                       </tr>
+                                    </tr>
                                        
-                                   </tc> 
+                                </tc> 
                                   
                 
-                               </table>                    
+                         </table>                    
 
 
 
@@ -201,7 +201,7 @@ class SkillSetsComponent extends React.Component {
                                              
                                      
                
-                      
+                    /*  
 
               <table>
                <tc>
@@ -221,7 +221,7 @@ class SkillSetsComponent extends React.Component {
                 
               </table> 
                             
-                  
+                  */
             </div>
         );
     }
