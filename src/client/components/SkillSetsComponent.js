@@ -72,7 +72,7 @@ class SkillSetsComponent extends React.Component {
                                                     #left content in here
                                                        <div>
                                               <h3 className="heading">Progress Bar</h3>
-                                              <Progressbar bgcolor="#99ccff" progress='95'  height={30} />
+                                              <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
                                               </div>
 
                                                <div>
