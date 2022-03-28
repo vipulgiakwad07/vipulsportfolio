@@ -83,7 +83,9 @@ class SkillSetsComponent extends React.Component {
                                                       </tr>
 
                                                   </tc>
-                                              
+                                              <table>
+                                                            
+                                                            
 
                                               <div>
                                               <h3 className="heading">Progress Bar</h3>
