@@ -66,11 +66,26 @@ class SkillSetsComponent extends React.Component {
                  
                    
 
-                                           <div className="progressbardiv"> 
-                                               
-                                                   <div style="width: 50%; float:left">
-                                                    #left content in here
-                                                       <div>
+                                          
+                                               <table>
+                                                  <tc>
+                                                      <tr>
+                                                        <div>
+                                                        <h3 className="heading">Progress Bar</h3>
+                                                        <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
+                                                        </div>
+                                                      </tr>
+                                                       <tr>
+                                                        <div>
+                                                        <h3 className="heading">Progress Bar</h3>
+                                                        <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
+                                                        </div>
+                                                      </tr>
+
+                                                  </tc>
+                                              
+
+                                              <div>
                                               <h3 className="heading">Progress Bar</h3>
                                               <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
                                               </div>
@@ -86,14 +101,8 @@ class SkillSetsComponent extends React.Component {
                                               <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
                                               </div>
 
-                                                 </div>
-                                                 
-                                                
-                                                
-
-                                               <div style="width: 50%; float:right">
-                                                    #right content in there
-
+                                            
+    
                                                <div>
                                               <h3 className="heading">Progress Bar</h3>
                                               <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
@@ -105,11 +114,9 @@ class SkillSetsComponent extends React.Component {
                                               <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
                                               </div>
 
-                                                 </div>
                                               
                                              
-                                             
-                                           </div>
+                                     
                
                       
 
