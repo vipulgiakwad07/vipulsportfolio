@@ -105,7 +105,7 @@ class SkillSetsComponent extends React.Component {
 
 
 
-                                     /*
+{/*
                                           
                                                <table>
                                                   <tc>
@@ -221,7 +221,7 @@ class SkillSetsComponent extends React.Component {
                 
               </table> 
                             
-                  */
+                  */}
             </div>
         );
     }
