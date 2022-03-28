@@ -3,7 +3,7 @@ import React from 'react'
 const Progress_bar = ({bgcolor,progress,height}) => {
 	
 	const Parentdiv = {
-		height: height,
+		height: '70%',
 		width: '100%',
 		backgroundColor: 'whitesmoke',
 		borderRadius: 40,
@@ -11,17 +11,17 @@ const Progress_bar = ({bgcolor,progress,height}) => {
 	}
 	
 	const Childdiv = {
-		height: '100%',
+		height: '70%',
 		width: `${progress}%`,
 		backgroundColor: bgcolor,
-	borderRadius:40,
+	        borderRadius:40,
 		textAlign: 'right'
 	}
 	
 	const progresstext = {
 		padding: 10,
 		color: 'black',
-		fontWeight: 900
+		fontWeight: 700
 	}
 		
 	return (
