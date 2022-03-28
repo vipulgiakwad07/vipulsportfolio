@@ -66,8 +66,11 @@ class SkillSetsComponent extends React.Component {
                  
                    
 
-                                           <div className=""> 
-                                              <div>
+                                           <div className="progressbardiv"> 
+                                               
+                                                   <div style="width: 50%; float:left">
+                                                    #left content in here
+                                                       <div>
                                               <h3 className="heading">Progress Bar</h3>
                                               <Progressbar bgcolor="#99ccff" progress='95'  height={30} />
                                               </div>
@@ -83,6 +86,14 @@ class SkillSetsComponent extends React.Component {
                                               <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
                                               </div>
 
+                                                 </div>
+                                                 
+                                                
+                                                
+
+                                               <div style="width: 50%; float:right">
+                                                    #right content in there
+
                                                <div>
                                               <h3 className="heading">Progress Bar</h3>
                                               <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
@@ -93,6 +104,10 @@ class SkillSetsComponent extends React.Component {
                                               <h3 className="heading">Progress Bar</h3>
                                               <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
                                               </div>
+
+                                                 </div>
+                                              
+                                             
                                              
                                            </div>
                
