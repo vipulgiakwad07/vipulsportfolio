@@ -69,24 +69,24 @@ class SkillSetsComponent extends React.Component {
                                           
                                                <table>
                                                   <tc>
-                                                      <tr>
-                                                        <div>
-                                                        <h3 className="heading">Progress Bar</h3>
-                                                        <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
-                                                        </div>
-                                                      </tr>
-                                                       <tr>
-                                                        <div>
-                                                        <h3 className="heading">Progress Bar</h3>
-                                                        <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
-                                                        </div>
-                                                      </tr>
+                                                           <tr>
+                                                                  <div>
+                                                                  <h3 className="heading">Progress Bar</h3>
+                                                                  <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
+                                                                  </div>
+                                                            </tr>
+                                                             <tr>
+                                                                    <div>
+                                                                    <h3 className="heading">Progress Bar</h3>
+                                                                    <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
+                                                                    </div>
+                                                            </tr>
 
                                                   </tc>
                                               <table>
                                                             
                                                             
-
+                                       /*
                                               <div>
                                               <h3 className="heading">Progress Bar</h3>
                                               <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
@@ -115,7 +115,7 @@ class SkillSetsComponent extends React.Component {
                                               <h3 className="heading">Progress Bar</h3>
                                               <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
                                               </div>
-
+                                 */
                                               
                                              
                                      
