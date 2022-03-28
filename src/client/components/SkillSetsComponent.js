@@ -84,23 +84,23 @@ class SkillSetsComponent extends React.Component {
                                   </tc>
                           
                                   <tc> 
-                                       <tr><div>
+                                       <tr>
+                                        <div>
                                         <h3 className="heading">Progress Bar</h3>
                                         <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
-                                       </div</tr>
-                                       <tr><div>
+                                       </div
+                                      </tr>
+                                       <tr>
+                                        <div>
                                         <h3 className="heading">Progress Bar</h3>
                                         <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
-                                       </div</tr>
+                                       </div>
+                                       </tr>
                                        
                                    </tc> 
-                                   <tc>
-                                         <tr><div className={'skill-round'}>Telwind CSS</div></tr>
-                                         <tr><div className={'skill-round'}>Bootstrap</div></tr>
-                                         <tr><div className={'skill-round'}>Laravel Mix</div></tr>
-                                  </tc>
+                                  
                 
-                   </table>                    
+                               </table>                    
 
 
 
