@@ -128,7 +128,7 @@ const MediaCard = (props) => {
         <CardBody className='text-center'>
           <CardTitle>Pizza Ordering App</CardTitle>
           
-          <CardText>This app allow users to order various types of Pizza amongst list and provide cash on                delivery and pay by card option using Stripe payment .This is full stack project build on       React Node Mongo and Express.</CardText>
+          <CardText>This app allow users to order various types of Pizza</CardText>
           <ul className='stick-bottom'>
         <li>
       <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
@@ -143,7 +143,7 @@ const MediaCard = (props) => {
           <CardTitle>Blogging App</CardTitle>
            
           <CardText>
-  In which user share users thoughts about a particular subject with readers or publish online journal. Developed using React node mongo Express.
+  In which user share users thoughts
 </CardText>
           <ul className='stick-bottom'>
         <li>
@@ -158,7 +158,7 @@ const MediaCard = (props) => {
         <CardBody>
           <CardTitle>E-com App</CardTitle>
           
-          <CardText>A website that allows people to buy and sell physical goods, services, and digital products over the internet rather than at a brick-and-mortar location. Developed using React node mongo express.
+          <CardText>A website that allows people to buy and sell physical goods, services, and digital products
 </CardText>
           <ul className='stick-bottom'>
         <li>
@@ -173,7 +173,7 @@ const MediaCard = (props) => {
         <CardBody>
           <CardTitle>Photos Sharing App</CardTitle>
       <CardText>
-      This app allow users to share their photos on web by uploading and let show to all friends and allow them to like ,user also follow and let other friends allow to follow user this app is developed using React Node Express and Mongo .
+      This app allow users to share their photos on web 
       </CardText>
       <ul className='stick-bottom'>
          <li>
