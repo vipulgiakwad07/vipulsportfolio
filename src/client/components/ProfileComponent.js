@@ -36,14 +36,12 @@ class ProfileComponent extends React.Component {
                     <div className={'dashboard-profile-details-container'}>
                         <p className={'dashboard-profile-name-label'}>Hello, I'm 
                         <span className={'dashboard-profile-name'}> Vipul Gaikwad</span></p>
+                        <h1 className={'dashboard-profile-deatils'}>
+                          'Hello'
+                            </h1>
                         <p className={'dashboard-profile-deatils'}>
-                            I'm a Software Engineer specialized in Web application development,In terms of the 
-                            Web framework having knolodge in both back-end and front-end development,I developed 
-                            many full-stack based web application using Node.js, React.js MongoDB & Express.
-                            </p>
-                        <p className={'dashboard-profile-deatils'}>
-                            To improve my skill sets in Web I like to participate in various codding 
-                            programs 
+                          /*  To improve my skill sets in Web I like to participate in various codding 
+                            programs */
                             </p>
                         <p className={'dashboard-profile-deatils'}>
                              
