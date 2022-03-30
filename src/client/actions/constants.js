@@ -1,4 +1,4 @@
-export const BASE_URL = ' mongodb+srv://vipul:<password>@cluster0.3v2rv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';  {/*9002 ,27017    http://localhost:9002*/}
+export const BASE_URL = ' mongodb+srv://vipul:portfoliodb@cluster0.3v2rv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';  {/*9002 ,27017    http://localhost:9002*/}
 export const SKILLS_ENDPOINT = '/api/skills';
 export const PROJECTS_ENDPOINT = '/api/projects';
 export const BLOGS_ENDPOINT = '/api/blogs';
