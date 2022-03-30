@@ -121,8 +121,13 @@ class BlogsComponent extends React.Component {
 
         return (
             <div className={'blogs-parent-contents-container'}>
-            
-            <p>  A self-tought developer. I'am enthusiastic about lerning new skills, 
+
+            <p> I'm a Software Engineer specialized in Web application development,In terms of the 
+                            Web framework having knolodge in both back-end and front-end development,I developed 
+                            many full-stack based web application using Node.js, React.js MongoDB & Express.</p>
+
+
+               <p>  A self-tought developer. I'am enthusiastic about lerning new skills, 
                  expandiing my knowledge, and leveraging my learnings. I enjoy creating 
                  user experience design, inerfaces and web development  </p> 
              </div>
