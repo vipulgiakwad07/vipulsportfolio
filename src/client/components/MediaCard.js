@@ -118,8 +118,7 @@ import pimg from '../images/pizza.png';
 import bimg from '../images/blogging.png';
 import phoimg from '../images/photo.png';
 import Eimg from '../images/ecom.png';
-import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
+
 
 const MediaCard = (props) => {
   return (
