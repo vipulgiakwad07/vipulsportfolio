@@ -131,17 +131,17 @@ const MediaCard = (props) => {
           
           <CardText>This app allow users to order various types of Pizza</CardText>
           <ul className='stick-bottom'>
-        <li>
+            {/*  <li>
       <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
       <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frontEnd</a></li>
-        <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li>
+        <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li> */}
           
              <div className='projectlinkbutton'>
           <Button variant="outlined">Primary</Button>
           <Button variant="outlined">Primary</Button>
           <Button variant="outlined">Primary</Button>
            </div>
-      </ul>
+{/*</ul>*/}
         </CardBody>
       </Card>
       <Card className='cardb'>
@@ -151,12 +151,12 @@ const MediaCard = (props) => {
            
           <CardText> User share users thoughts
 </CardText>
-          <ul className='stick-bottom'>
+{/*  <ul className='stick-bottom'>
         <li>
       <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
       <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frontEnd</a></li>
         <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li>
-      </ul> 
+      </ul> */}
           <div className='projectlinkbutton'>
       <Button variant="outlined">Primary</Button>
           <Button variant="outlined">Primary</Button>
@@ -171,12 +171,12 @@ const MediaCard = (props) => {
           
           <CardText>Buy and sell physical goods
 </CardText>
-          <ul className='stick-bottom'>
+{/* <ul className='stick-bottom'>
         <li>
       <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
       <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frontEnd</a></li>
         <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li>
-      </ul>
+      </ul> */}
            <div className='projectlinkbutton'>
           <Button variant="outlined">Primary</Button>
           <Button variant="outlined">Primary</Button>
@@ -191,12 +191,12 @@ const MediaCard = (props) => {
       <CardText>
       This app allow users to share their photos on web 
       </CardText>
-      <ul className='stick-bottom'>
+{/* <ul className='stick-bottom'>
          <li>
       <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
       <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frontEnd</a></li>
         <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li>
-      </ul>
+      </ul> */}
          <div className='projectlinkbutton'>
          <Button variant="outlined">Primary</Button>
           <Button variant="outlined">Primary</Button>
