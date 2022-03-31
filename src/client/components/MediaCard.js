@@ -136,10 +136,11 @@ const MediaCard = (props) => {
       <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frontEnd</a></li>
         <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li>
           
-          <Button variant="contained" href="#contained-buttons">Link</Button>
-          
+             <div className='projectlinkbutton'>
           <Button variant="outlined">Primary</Button>
-
+          <Button variant="outlined">Primary</Button>
+          <Button variant="outlined">Primary</Button>
+           </div>
       </ul>
         </CardBody>
       </Card>
@@ -156,7 +157,12 @@ const MediaCard = (props) => {
       <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
       <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frontEnd</a></li>
         <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li>
-      </ul>
+      </ul> 
+          <div className='projectlinkbutton'>
+      <Button variant="outlined">Primary</Button>
+          <Button variant="outlined">Primary</Button>
+          <Button variant="outlined">Primary</Button>
+           </div>
         </CardBody>
       </Card >
       <Card className='carde'>
@@ -172,6 +178,11 @@ const MediaCard = (props) => {
       <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frontEnd</a></li>
         <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li>
       </ul>
+           <div className='projectlinkbutton'>
+          <Button variant="outlined">Primary</Button>
+          <Button variant="outlined">Primary</Button>
+          <Button variant="outlined">Primary</Button>
+           </div>
         </CardBody>
       </Card>
       <Card className='cardpho'>
@@ -187,6 +198,11 @@ const MediaCard = (props) => {
       <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frontEnd</a></li>
         <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li>
       </ul>
+         <div className='projectlinkbutton'>
+         <Button variant="outlined">Primary</Button>
+          <Button variant="outlined">Primary</Button>
+          <Button variant="outlined">Primary</Button>
+           </div>
     </CardBody>
       </Card>
     </CardDeck>
