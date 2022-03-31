@@ -344,8 +344,9 @@ html, body {
   */
 
      .projectlinkbutton{
-	 display:inline;
-	padding:3px;
+	display:inline;
+	padding:1rem;
+	background:blue;
       }
 
   .cardp{
