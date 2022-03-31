@@ -149,8 +149,7 @@ const MediaCard = (props) => {
         <CardBody>
           <CardTitle>Blogging App</CardTitle>
            
-          <CardText>
-  In which user share users thoughts
+          <CardText> User share users thoughts
 </CardText>
           <ul className='stick-bottom'>
         <li>
@@ -170,7 +169,7 @@ const MediaCard = (props) => {
         <CardBody>
           <CardTitle>E-com App</CardTitle>
           
-          <CardText>A website that allows people to buy and sell physical goods, services, and digital products
+          <CardText>Buy and sell physical goods
 </CardText>
           <ul className='stick-bottom'>
         <li>
