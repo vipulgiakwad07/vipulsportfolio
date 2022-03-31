@@ -137,6 +137,8 @@ const MediaCard = (props) => {
         <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li>
           
           <Button variant="contained" href="#contained-buttons">Link</Button>
+          
+          <Button variant="outlined">Primary</Button>
 
       </ul>
         </CardBody>
