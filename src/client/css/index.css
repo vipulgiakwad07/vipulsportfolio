@@ -343,6 +343,11 @@ html, body {
 }
   */
 
+     .projectlinkbutton{
+	 display:inline;
+	padding:3px;
+      }
+
   .cardp{
     background: #d8d0d0;  
     border: solid black 1px ;  
