@@ -118,6 +118,8 @@ import pimg from '../images/pizza.png';
 import bimg from '../images/blogging.png';
 import phoimg from '../images/photo.png';
 import Eimg from '../images/ecom.png';
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
 
 const MediaCard = (props) => {
   return (
@@ -134,6 +136,9 @@ const MediaCard = (props) => {
       <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
       <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frontEnd</a></li>
         <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li>
+          
+          <Button variant="contained" href="#contained-buttons">Link</Button>
+
       </ul>
         </CardBody>
       </Card>
