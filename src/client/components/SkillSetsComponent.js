@@ -4,16 +4,11 @@ import "../css/index.css";
 import { connect } from 'react-redux';
 
 import { fetchSkillSets } from '../actions';
-
-
-
-
 import Progressbar from './Progress_bar';
-
-
-
-
-
+import Progres from './LinearWithValueLabel'
+import Progress from './LinearWithValueLabel';
+import LinearWithValueLabel from './LinearWithValueLabel';
+import ProgressBar1 from './progress-bar';
 
 class SkillSetsComponent extends React.Component {
     constructor(props) {
@@ -61,149 +56,46 @@ class SkillSetsComponent extends React.Component {
         var results = JSON.parse(JSON.stringify(this.props.skills)).data;
         return (
             <div className={'skills-parent-container'}>
-                {this.renderTechStacks(results)}
-                <div className={'skills-mobile-gap'}></div>
-                 
-                   
-                       <table>
-                                <tc>
-                                    <tr>                   
-                                        <div>
-                                            <h3 className="heading">Progress Bar</h3>
-                                            <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
-                                       </div>
-                                    </tr>
-                                       
-                                     <tr>                   
-                                        <div>
-                                            <h3 className="heading">Progress Bar</h3>
-                                            <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
-                                       </div>
-                                     </tr>
-             
-                                </tc>
-                          
-                                <tc> 
-                                     <tr>
-                                         <div>
-                                              <h3 className="heading">Progress Bar</h3>
-                                              <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
-                                         </div>
-                                     </tr>
-                                   <tr>
-                                       <div>
-                                             <h3 className="heading">Progress Bar</h3>
-                                             <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
-                                       </div>
-                                    </tr>
-                                       
-                                </tc> 
-                                  
                 
-                         </table>                    
+                    <div className='wrapper'>
+
+                           <div className='frontend'>
+                               <h2>frontend</h2>   
+                               <h3 className="heading">HTML</h3>
+                               <Progressbar bgcolor="#3dCFD3" progress='90'  height={5} />
+                               <h3 className="heading">CSS</h3>
+                               <Progressbar bgcolor="#3dCFD3" progress='75'  height={5} />
+                               <h3 className="heading">Java Script</h3>
+                               <Progressbar bgcolor="#3dCFD3" progress='80'  height={5} />
+                               <h3 className="heading">React</h3>
+                               <Progressbar bgcolor="#3dCFD3" progress='70'  height={5} />
+                           </div>
 
 
+                           <div className='backend'>
+                                <h2>Backend</h2>   
+                                <h3 className="heading">NodeJs</h3>
+                                <Progressbar bgcolor="#3dCFD3" progress='65'  height={5} />
+                                <h3 className="heading">Express</h3>
+                                <Progressbar bgcolor="#3dCFD3" progress='50'  height={5} />
+                           
+                           </div>
 
+                           <div className='database'> 
+                           <h2>Database</h2>   
+                               <h3 className="heading">Mongodb</h3>
+                               <Progressbar bgcolor="#3dCFD3" progress='65'  height={5} />
+                     
+                       </div>
+                       </div>
 
-{/*
-                                          
-                                               <table>
-                                                  <tc>
-                                                           <tr>
-                                                                  <div>
-                                                                  <h3 className="heading">Progress Bar</h3>
-                                                                  <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
-                                                                  </div>
-                                                            </tr>
-                                                             <tr>
-                                                                    <div>
-                                                                    <h3 className="heading">Progress Bar</h3>
-                                                                    <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
-                                                                    </div>
-                                                            </tr>
-
-                                                  </tc>
-                                              <table>
-                                                            
-                                                            
-                                     
-                                       
-                                       <table>
-                                   <tc>
-                                        <tr>                   
-                                        <div>
-                                        <h3 className="heading">Progress Bar</h3>
-                                        <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
-                                       </div
-                                       </tr>
-                                       
-                                        <tr>                   
-                                        <div>
-                                        <h3 className="heading">Progress Bar</h3>
-                                        <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
-                                       </div
-                                       </tr>
-             
-                                  </tc>
-                          
-                                  <tc> 
-                                       <tr><div>
-                                        <h3 className="heading">Progress Bar</h3>
-                                        <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
-                                       </div</tr>
-                                       <tr><div>
-                                        <h3 className="heading">Progress Bar</h3>
-                                        <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
-                                       </div</tr>
-                                       
-                                   </tc> 
-                                   <tc>
-                                         <tr><div className={'skill-round'}>Telwind CSS</div></tr>
-                                         <tr><div className={'skill-round'}>Bootstrap</div></tr>
-                                         <tr><div className={'skill-round'}>Laravel Mix</div></tr>
-                                  </tc>
-                
-                   </table>                    
-                                       
-                                       
-                                       
-                                       
-                                              <div>
-                                              <h3 className="heading">Progress Bar</h3>
-                                              <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
-                                              </div>
-
-                                               <div>
-                                              <h3 className="heading">Progress Bar</h3>
-                                              <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
-                                              </div>
-
-                                              
-                                              <div>
-                                              <h3 className="heading">Progress Bar</h3>
-                                              <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
-                                              </div>
-
-                                            
-    
-                                               <div>
-                                              <h3 className="heading">Progress Bar</h3>
-                                              <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
-                                              </div>
-
-                                              
-                                               <div>
-                                              <h3 className="heading">Progress Bar</h3>
-                                              <Progressbar bgcolor="#3dCFD3" progress='95'  height={30} />
-                                              </div>
-                                 */
-                                              
-                                             
-                                     
-               
-                    /*  
-
-              <table>
+            
+           {/* <Progress done="70" />
+            <LinearWithValueLabel />
+              <ProgressBar1 completed="70%"/> 
+            
+            
+             <table>
                <tc>
                 <tr><div className={'skill-round'}>react </div></tr>
                 <tr> <div className={'skill-round'}>Node</div> </tr>
@@ -219,9 +111,7 @@ class SkillSetsComponent extends React.Component {
                     <tr><div className={'skill-round'}>Laravel Mix</div></tr>
                 </tc>
                 
-              </table> 
-                            
-                  */}
+              </table> */}
             </div>
         );
     }
