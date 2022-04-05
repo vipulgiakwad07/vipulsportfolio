@@ -57,6 +57,10 @@
     "webpack:start": "nodemon --watch build --exec node build/bundle.js",
     "build": "webpack --config webpack.client.js && webpack --config webpack.server.js"
   },
+   "engines" : { 
+    "npm" : "8.5.4",
+    "node" : ">=16.0.0"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
