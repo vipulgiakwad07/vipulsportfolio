@@ -244,6 +244,41 @@ html, body {
 }
 
 /*************************SkillSets Styles********************************/
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  height: auto;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  
+  margin-bottom: 5rem;
+  color: black;
+  padding: 1rem;
+}
+
+.progress{
+  background-color:#d8d0d0;
+  border-radius: 20px black;
+  height: 20px;
+  width: 300px;
+  padding: 1rem;
+}
+
+.progress-done{
+  height: 90%;
+  background-color: #3dCFD3;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 0;
+  opacity: 0;
+}
+
+
+
 .skills-parent-container {
   width: 100vw;
   height: auto;
@@ -252,7 +287,7 @@ html, body {
   margin-top: 3em;
   margin-bottom: 0em;
 }
-.skills-sets-container {
+/*.skills-sets-container {
   width: 100%;
   height: 5em;
   display: flex;
