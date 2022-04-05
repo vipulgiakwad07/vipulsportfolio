@@ -118,7 +118,7 @@ class SkillSetsComponent extends React.Component {
 }
 
 const stateProps = state => ({
-    skills: state.skills
+     skills: state.skills
 });
 
 const dispatchProps = dispatch => ({
