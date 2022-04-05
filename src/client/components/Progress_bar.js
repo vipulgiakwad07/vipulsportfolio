@@ -1,27 +1,29 @@
+import { black } from 'material-ui/styles/colors'
 import React from 'react'
 
-const Progress_bar = ({bgcolor,progress,height}) => {
+const Progress_bar = ({bgcolor,progress,height,color}) => {
 	
 	const Parentdiv = {
-		height: '70%',
+		height: '2%',
 		width: '100%',
-		backgroundColor: 'whitesmoke',
+		backgroundColor: 'gray',
 		borderRadius: 40,
-		margin: 50
+		margin: 1,
 	}
 	
 	const Childdiv = {
-		height: '50%',
+		height: '100%',
 		width: `${progress}%`,
 		backgroundColor: bgcolor,
-	        borderRadius:40,
-		textAlign: 'right'
+	    borderRadius:40,
+		textAlign: 'left'
 	}
 	
 	const progresstext = {
 		padding: 10,
 		color: 'black',
-		fontWeight: 700
+		fontWeight: 700,
+		
 	}
 		
 	return (
