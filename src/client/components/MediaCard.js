@@ -130,8 +130,8 @@ const MediaCard = (props) => {
           <CardTitle>Pizza Ordering App</CardTitle>
           
           <CardText>This app allow users to order various types of Pizza</CardText>
-          <ul className='stick-bottom'>
-            {/*  <li>
+          {/* <ul className='stick-bottom'>
+             <li>
       <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
       <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frontEnd</a></li>
         <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li> */}
