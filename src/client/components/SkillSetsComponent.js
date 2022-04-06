@@ -5,10 +5,7 @@ import { connect } from 'react-redux';
 
 import { fetchSkillSets } from '../actions';
 import Progressbar from './Progress_bar';
-import Progres from './LinearWithValueLabel'
-import Progress from './LinearWithValueLabel';
-import LinearWithValueLabel from './LinearWithValueLabel';
-import ProgressBar1 from './progress-bar';
+
 
 class SkillSetsComponent extends React.Component {
     constructor(props) {
@@ -118,7 +115,7 @@ class SkillSetsComponent extends React.Component {
 }
 
 const stateProps = state => ({
-     skills: state.skills
+    skills: state.skills
 });
 
 const dispatchProps = dispatch => ({
