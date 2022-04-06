@@ -1,4 +1,4 @@
-import { black } from 'material-ui/styles/colors'
+
 import React from 'react'
 
 const Progress_bar = ({bgcolor,progress,height,color}) => {
