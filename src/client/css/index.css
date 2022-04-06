@@ -384,26 +384,26 @@ html, body {
 	
       }
 
-  .cardp{
+    .cardp{
     background: #d8d0d0;  
-    border: solid black 1px ;  
+    border: 2px solid #3dCFD3; 
     align-items: center;
   }
   .cardb{
     background: #d8d0d0;
-    border: solid black 1px ;
+    border: 2px solid #3dCFD3;
     align-items: center;
   }
   .carde{
     
-    border: solid black 1px ;
+    border: 2px solid #3dCFD3;
     background: #d8d0d0;
     display: center;
   }
   .cardpho{
     background: #d8d0d0;
     align-items: center;
-    border: solid black 1px ;
+    border: 2px solid #3dCFD3;
     align-items: center;
   }
 
