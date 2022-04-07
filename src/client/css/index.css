@@ -1019,6 +1019,12 @@ html, body {
     line-height: 1.7em;
     text-decoration: underline;
   }
+	
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+  }	
   .skills-mobile-gap {
     width: 100%;
     height: 5em;
