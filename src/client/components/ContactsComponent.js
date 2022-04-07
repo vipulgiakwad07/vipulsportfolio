@@ -1,6 +1,6 @@
 import React from 'react';
 import "../css/index.css";
-
+import Contact from "./Contact.js";
 import facebook from '../images/ic_black_facebook.png';
 import twitter from '../images/ic_black_twitter.png';
 import linkedin from '../images/ic_black_linkedin.png';
