@@ -697,6 +697,20 @@ html, body {
 /****************************************************************/
 
 /**********************Contacts Styles********************/
+.App {
+  text-align: left;
+  max-width: 300px;
+  margin: 30px auto;
+  display: flex;
+}
+
+Form {
+  border: 1px solid #3dCFD3;
+  border-radius: 10px;
+  padding: 30px;
+  width: 90%
+} 
+
 .contacts-parent-container {
   width: 100vw;
   height: auto;
