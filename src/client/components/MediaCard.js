@@ -129,7 +129,7 @@ const MediaCard = (props) => {
         <CardBody className='text-center'>
           <CardTitle>Pizza Ordering App</CardTitle>
           
-          <CardText>This app allow users to order various types of Pizza</CardText>
+          <CardText></CardText>
           {/* <ul className='stick-bottom'>
              <li>
       <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
@@ -149,7 +149,7 @@ const MediaCard = (props) => {
         <CardBody>
           <CardTitle>Blogging App</CardTitle>
            
-          <CardText> User share users thoughts
+          <CardText>
 </CardText>
 {/*  <ul className='stick-bottom'>
         <li>
@@ -169,7 +169,7 @@ const MediaCard = (props) => {
         <CardBody>
           <CardTitle>E-com App</CardTitle>
           
-          <CardText>Buy and sell physical goods
+          <CardText>
 </CardText>
 {/* <ul className='stick-bottom'>
         <li>
@@ -189,7 +189,7 @@ const MediaCard = (props) => {
         <CardBody>
           <CardTitle>Photos Sharing App</CardTitle>
       <CardText>
-      This app allow users to share their photos on web 
+   
       </CardText>
 {/* <ul className='stick-bottom'>
          <li>
