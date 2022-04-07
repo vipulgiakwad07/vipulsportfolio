@@ -24,6 +24,7 @@ class ContactsComponent extends React.Component {
             <div className={'contacts-contents-container'}>
                  <h4 className={'contacts-footer-number'}>+91 8149 7163 23</h4>
                  <h4 className={'contacts-emailid'}>vipulgaikwad001@gmail.com</h4>
+                 <Contact />
                 <div className={'contacts-social-container'}>
                    {/* <a href="https://www.facebook.com/hackbotone/" target="_blank"><img src={facebook} className={'contact-social-img'}/></a>*/}
                     <a href="https://twitter.com/Vipulgaikwad" target="_blank"><img src={twitter} className={'contact-social-img'}/></a>
