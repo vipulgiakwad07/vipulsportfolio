@@ -845,6 +845,18 @@ Form {
   display: none;
 }
 
+
+.contact-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mycontacts{
+ 
+  margin-left: 0rem;
+  margin-top: 100px;
+}
+
 /****************************************************************************************/
 
 @media only screen and (max-width: 1000px) {
