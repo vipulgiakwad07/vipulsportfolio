@@ -37,7 +37,7 @@ class ProfileComponent extends React.Component {
                         <p className={'dashboard-profile-name-label'}>Hello, I'm 
                         <span className={'dashboard-profile-name'}> Vipul Gaikwad</span></p>
                         <h1 className={'dashboard-profile-deatils'}>
-                            {/**/}
+                            I like to make digital experience easier and simpler for people.
                             </h1>
                         <p className={'dashboard-profile-deatils'}>
                             {/*  To improve my skill sets in Web I like to participate in various codding 
