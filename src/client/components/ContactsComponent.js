@@ -32,7 +32,7 @@ class ContactsComponent extends React.Component {
                    {/* <a href="https://www.facebook.com/hackbotone/" target="_blank"><img src={facebook} className={'contact-social-img'}/></a>*/}
                     <a href="https://twitter.com/Vipulgaikwad" target="_blank"><img src={twitter} className={'contact-social-img'}/></a>
                     <a href="https://www.linkedin.com/in/vipul-gaikwad-621833102/" target="_blank"><img src={linkedin} className={'contact-social-img'}/></a>
-                    <a href="https://github.com/anshumanpattnaik" target="_blank"><img src={github} className={'contact-social-img'}/></a>
+                    <a href="https://github.com/vipulgiakwad07" target="_blank"><img src={github} className={'contact-social-img'}/></a>
                    {/* <a href="https://www.youtube.com/anshumanpattnaik" target="_blank"><img src={youtube} className={'contact-social-img'}/></a> */}
                    
                 </div>
