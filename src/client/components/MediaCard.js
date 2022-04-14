@@ -130,7 +130,7 @@ const MediaCard = (props) => {
        
         <CardImg top width="100%" src={pimg} alt="Card image cap" />
         <CardBody className='text-center'>
-          <CardTitle><h1>Pizza Ordering App</h1></CardTitle>
+          <CardTitle><h1>Order Pizza</h1></CardTitle>
           
           <CardText></CardText>
           {/* <ul>
@@ -193,7 +193,7 @@ const MediaCard = (props) => {
       <Card className='cardpho'>
         <CardImg top width="100%" src={phoimg} alt="Card image cap" />
         <CardBody>
-          <CardTitle><h1>Photos Sharing App</h1></CardTitle>
+          <CardTitle><h1>Share Photos</h1></CardTitle>
       <CardText>
       
       </CardText>
