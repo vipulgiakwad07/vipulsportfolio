@@ -111,6 +111,7 @@ export default function MediaCard() {
   
 }
 */
+
 import React from 'react';
 import { Card, Button, CardImg, CardTitle, CardText, CardDeck,
  CardSubtitle, CardBody, CardLink } from 'reactstrap';
@@ -120,87 +121,93 @@ import phoimg from '../images/photo.png';
 import Eimg from '../images/ecom.png';
 
 
+
 const MediaCard = (props) => {
   return (
     /*<div className="Myproject">*/
     <CardDeck className="Myproject">
       <Card  className="cardp text-center">
+       
         <CardImg top width="100%" src={pimg} alt="Card image cap" />
         <CardBody className='text-center'>
-          <CardTitle>Pizza Ordering App</CardTitle>
+          <CardTitle><h1>Pizza Ordering App</h1></CardTitle>
           
           <CardText></CardText>
-          {/* <ul className='stick-bottom'>
-             <li>
-      <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
-      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frontEnd</a></li>
-        <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li> */}
-          
-             <div className='projectlinkbutton'>
-          <Button variant="outlined">Primary</Button>
-          <Button variant="outlined">Primary</Button>
-          <Button variant="outlined">Primary</Button>
+          {/* <ul>
+        <li>
+      <a href='https://bloggingappheroku.herokuapp.com' target="_blank">Visit Photos Sharing WebApp</a></li>
+      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">Github Source Code</a></li>
+      </ul> */}
+
+       <div className="projectlinkbutton" > 
+      
+         {/*<Button variant="outlined">Live Project</Button>
+          <Button variant="outlined">Frontend</Button>
+          <Button variant="outlined">Backend</Button>*/}
+          <Button variant="info" className='livebtn'>Live Project</Button>{''}
+          <Button variant="info" className="frontendbtn">Frontend</Button>{' '}
+          <Button variant="info" className="backendbtn">Backend</Button>{' '}
            </div>
-{/*</ul>*/}
+
         </CardBody>
       </Card>
       <Card className='cardb'>
         <CardImg top width="100%" src={bimg} alt="Card image cap" />
         <CardBody>
-          <CardTitle>Blogging App</CardTitle>
+          <CardTitle><h1>Blogging App</h1></CardTitle>
            
           <CardText>
+  
 </CardText>
-{/*  <ul className='stick-bottom'>
+          {/* <ul>
         <li>
-      <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
-      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frontEnd</a></li>
-        <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li>
+      <a href='https://bloggingappheroku.herokuapp.com' target="_blank">Visit Photos Sharing WebApp</a></li>
+      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">Github Source Code</a></li>
       </ul> */}
-          <div className='projectlinkbutton'>
-      <Button variant="outlined">Primary</Button>
-          <Button variant="outlined">Primary</Button>
-          <Button variant="outlined">Primary</Button>
+      <div className='projectlinkbutton'>
+      <Button variant="outlined"> <a href='https://bloggingappheroku.herokuapp.com' target="_blank">Live Project</a></Button>
+          <Button variant="outlined"><a href='https://bloggingappheroku.herokuapp.com' target="_blank">Frontend</a></Button>
+          <Button variant="outlined">  <a href='https://bloggingappheroku.herokuapp.com' target="_blank">Backend</a></Button>
+
            </div>
         </CardBody>
       </Card >
       <Card className='carde'>
         <CardImg top width="100%" src={Eimg} alt="Card image cap" />
         <CardBody>
-          <CardTitle>E-com App</CardTitle>
+          <CardTitle><h1>E-com App</h1></CardTitle>
           
           <CardText>
 </CardText>
-{/* <ul className='stick-bottom'>
+          {/* <ul>
         <li>
-      <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
-      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frontEnd</a></li>
-        <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li>
+      <a href='https://bloggingappheroku.herokuapp.com' target="_blank">Visit Photos Sharing WebApp</a></li>
+      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">Github Source Code</a></li>
       </ul> */}
-           <div className='projectlinkbutton'>
-          <Button variant="outlined">Primary</Button>
-          <Button variant="outlined">Primary</Button>
-          <Button variant="outlined">Primary</Button>
+
+      <div className='projectlinkbutton' spacing={2}>
+         <Button variant="outlined">Live Project</Button>
+          <Button variant="outlined">Frontend</Button>
+          <Button variant="outlined">Backend</Button>
            </div>
         </CardBody>
       </Card>
       <Card className='cardpho'>
         <CardImg top width="100%" src={phoimg} alt="Card image cap" />
         <CardBody>
-          <CardTitle>Photos Sharing App</CardTitle>
+          <CardTitle><h1>Photos Sharing App</h1></CardTitle>
       <CardText>
-   
+      
       </CardText>
-{/* <ul className='stick-bottom'>
-         <li>
-      <a href='https://bloggingappheroku.herokuapp.com' target="_blank">live</a></li>
-      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">frontEnd</a></li>
-        <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">BackEnd</a></li>
+      {/* <ul>
+        <li>
+      <a href='https://bloggingappheroku.herokuapp.com' target="_blank">Visit Photos Sharing WebApp</a></li>
+      <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">Github Source Code</a></li>
       </ul> */}
-         <div className='projectlinkbutton'>
-         <Button variant="outlined">Primary</Button>
-          <Button variant="outlined">Primary</Button>
-          <Button variant="outlined">Primary</Button>
+      <div className='projectlinkbutton'>
+         <Button variant="outlined">Live Project</Button>
+          <Button variant="outlined">Frontend</Button>
+          <Button variant="outlined">Backend</Button>
            </div>
     </CardBody>
       </Card>
