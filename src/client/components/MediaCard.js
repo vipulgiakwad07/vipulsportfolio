@@ -139,14 +139,11 @@ const MediaCard = (props) => {
       <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">Github Source Code</a></li>
       </ul> */}
 
-       <div className="projectlinkbutton" > 
-      
-         {/*<Button variant="outlined">Live Project</Button>
-          <Button variant="outlined">Frontend</Button>
-          <Button variant="outlined">Backend</Button>*/}
-          <Button variant="info" className='livebtn'>Live Project</Button>{''}
-          <Button variant="info" className="frontendbtn">Frontend</Button>{' '}
-          <Button variant="info" className="backendbtn">Backend</Button>{' '}
+      <div className='projectlinkbutton'>
+      <Button variant="outlined"> <a href='https://bloggingappheroku.herokuapp.com' target="_blank">Live Project</a></Button>
+          <Button variant="outlined"><a href='https://bloggingappheroku.herokuapp.com' target="_blank">Frontend</a></Button>
+          <Button variant="outlined">  <a href='https://bloggingappheroku.herokuapp.com' target="_blank">Backend</a></Button>
+
            </div>
 
         </CardBody>
@@ -185,10 +182,11 @@ const MediaCard = (props) => {
       <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">Github Source Code</a></li>
       </ul> */}
 
-      <div className='projectlinkbutton' spacing={2}>
-         <Button variant="outlined">Live Project</Button>
-          <Button variant="outlined">Frontend</Button>
-          <Button variant="outlined">Backend</Button>
+     <div className='projectlinkbutton'>
+      <Button variant="outlined"> <a href='https://bloggingappheroku.herokuapp.com' target="_blank">Live Project</a></Button>
+          <Button variant="outlined"><a href='https://bloggingappheroku.herokuapp.com' target="_blank">Frontend</a></Button>
+          <Button variant="outlined">  <a href='https://bloggingappheroku.herokuapp.com' target="_blank">Backend</a></Button>
+
            </div>
         </CardBody>
       </Card>
@@ -204,10 +202,11 @@ const MediaCard = (props) => {
       <a href='https://bloggingappheroku.herokuapp.com' target="_blank">Visit Photos Sharing WebApp</a></li>
       <li><a href='https://bloggingappheroku.herokuapp.com' target="_blank">Github Source Code</a></li>
       </ul> */}
-      <div className='projectlinkbutton'>
-         <Button variant="outlined">Live Project</Button>
-          <Button variant="outlined">Frontend</Button>
-          <Button variant="outlined">Backend</Button>
+     <div className='projectlinkbutton'>
+      <Button variant="outlined"> <a href='https://bloggingappheroku.herokuapp.com' target="_blank">Live Project</a></Button>
+          <Button variant="outlined"><a href='https://bloggingappheroku.herokuapp.com' target="_blank">Frontend</a></Button>
+          <Button variant="outlined">  <a href='https://bloggingappheroku.herokuapp.com' target="_blank">Backend</a></Button>
+
            </div>
     </CardBody>
       </Card>
