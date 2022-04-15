@@ -378,7 +378,14 @@ html, body {
 }
   */
 
-     
+ .projects-parent-container span p{
+    font-weight: 500;
+    font-size:x-large;
+    color: #4c8bf5;
+    align-items: center;
+    text-align: center;
+  }
+   
   .projectlinkbutton Button{
     font-weight: bold;
     font-size: 0.7rem;
