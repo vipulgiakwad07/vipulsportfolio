@@ -23,10 +23,10 @@ class ProfileComponent extends React.Component {
         return (
             <div className={'dashboard-header-container'}>
                 <div className={'dashboard-banner-overlay'}></div>
-                <div className={'dashboard-profile-div'}>
+                  <div className={'dashboard-profile-div'}>
                     <div className={'dashboard-profile-img-container'}>
                         <img src={profile} className={'dashboard-profile-img'} />
-                        <div className={'social-profile-container'}>
+                          <div className={'social-profile-container'}>
                            
                             <a href="https://https://twitter.com/Vipulgaikwad" target="_blank"><img src={twitter} className={'social-profile-icon'} /></a>
                             <a href="https://www.linkedin.com/in/vipul-gaikwad-621833102/" target="_blank"><img src={linkedin} className={'social-profile-icon'} /></a>
@@ -44,14 +44,15 @@ class ProfileComponent extends React.Component {
                             {/*  To improve my skill sets in Web I like to participate in various codding 
                             programs */}
                             </p>
+                                   <Button variant="contained"> DownlodCV  </Button>
+                            
+                          
                         <p className={'dashboard-profile-deatils'}>
                              
                            
                         </p>
 
-                          <Button variant="contained">
-                             DownlodCV
-                           </Button>
+                          
                     </div>
                 </div>
                 <img className={'dashboard-banner-img'} />
