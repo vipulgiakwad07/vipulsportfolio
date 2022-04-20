@@ -47,6 +47,10 @@ class ProfileComponent extends React.Component {
                              
                            
                         </p>
+
+                          <Button variant="contained">
+                             DownlodCV
+                           </Button>
                     </div>
                 </div>
                 <img className={'dashboard-banner-img'} />
