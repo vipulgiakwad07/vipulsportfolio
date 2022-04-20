@@ -243,6 +243,19 @@ html, body {
   font-weight: bold;
 }
 
+
+.dashboard-profile-details-container Button{
+  font-weight: bold;
+    font-size: 1rem;
+    opacity: 75%;
+    align-items: center;
+    background-color: #3dCFD3;
+    border-color: #3dCFD3;
+    padding: 10px;
+    margin: 0.7rem;
+    border-radius: 4px;
+}
+
 /*************************SkillSets Styles********************************/
 .wrapper {
   display: grid;
