@@ -7,7 +7,7 @@ import profile from "../images/profileimg.png";
 import twitter from "../images/ic_twitter.png";
 import github from "../images/ic_github.png";
 import linkedin from "../images/ic_linkedin.png";
-import { Button} from 'semantic-ui-react';
+import  Button from 'semantic-ui-react';
 
 
 class ProfileComponent extends React.Component {
