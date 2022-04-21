@@ -130,6 +130,9 @@ class BlogsComponent extends React.Component {
                <p>  A self-tought developer. I'am enthusiastic about lerning new skills, 
                  expandiing my knowledge, and leveraging my learnings. I enjoy creating 
                  user experience design, inerfaces and web development  </p> 
+
+                    <Button variant="contained"> DownlodCV  </Button>
+                        
              </div>
         );
     }
