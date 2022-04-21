@@ -44,17 +44,14 @@ class ProfileComponent extends React.Component {
                             {/*  To improve my skill sets in Web I like to participate in various codding 
                             programs */}
                             </p>
-                                   <Button variant="contained"> DownlodCV  </Button>
-                            
-                                    
-
-
+                            <Button variant="contained"> DownlodCV  </Button>
+                        
                         <p className={'dashboard-profile-deatils'}>
-                             
-                           
+                        
                         </p>
 
-                          
+                            <Button variant="contained"> DownlodCV  </Button>
+                        
                     </div>
                 </div>
                 <img className={'dashboard-banner-img'} />
