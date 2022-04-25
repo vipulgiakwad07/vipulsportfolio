@@ -140,9 +140,9 @@ const MediaCard = (props) => {
       </ul> */}
 
 <div className='projectlinkbutton'>
-      <Button variant="outlined"> <a href='https://bloggingappheroku.herokuapp.com' target="_blank">Live Project</a></Button>
-          <Button variant="outlined"><a href='https://bloggingappheroku.herokuapp.com' target="_blank">Frontend</a></Button>
-          <Button variant="outlined">  <a href='https://bloggingappheroku.herokuapp.com' target="_blank">Backend</a></Button>
+      <Button variant="outlined"> <a href='https://pizzavapp.herokuapp.com' target="_blank">Live Project</a></Button>
+          <Button variant="outlined"><a href='https://github.com/vipulgiakwad07/pizzavapp/tree/main/resources' target="_blank">Frontend</a></Button>
+          <Button variant="outlined">  <a href='https://github.com/vipulgiakwad07/pizzavapp' target="_blank">Backend</a></Button>
 
            </div>
 
