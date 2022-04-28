@@ -110,7 +110,7 @@ class DashboardComponent extends React.Component {
                         <div className={'skills-container'}>
                             <span className={'dashboard-skills-label'}>Projects</span>
                         </div> 
-                              <span><p>Credentials:</p><h4>USER NAME/(ID) : user & PASSWORD : 123456</h4>
+                              <span><p>Credentials:</p><h4>USER NAME: user OR EMAIL : dummy@gmail.com & PASSWORD : 123456</h4>
                             </span>
                         <ProjectsComponent />
                         
