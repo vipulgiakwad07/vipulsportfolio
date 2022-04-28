@@ -128,7 +128,7 @@ const MediaCard = (props) => {
     <CardDeck className="Myproject">
       <Card  className="cardp text-center">
        
-        <CardImg top width="100%" src={pimg} alt="Card image cap" />
+        <CardImg top width="100%" height="51%" src={pimg} alt="Card image cap" />
         <CardBody className='text-center'>
           <CardTitle><h1>Order Pizza</h1></CardTitle>
           
