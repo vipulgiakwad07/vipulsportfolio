@@ -30,7 +30,7 @@ class ProfileComponent extends React.Component {
                            
                             <a href="https://https://twitter.com/Vipulgaikwad" target="_blank"><img src={twitter} className={'social-profile-icon'} /></a>
                             <a href="https://www.linkedin.com/in/vipul-gaikwad-621833102/" target="_blank"><img src={linkedin} className={'social-profile-icon'} /></a>
-                            <a href="https://github.com" target="_blank"><img src={github} className={'social-profile-icon'} /></a>
+                            <a href="https://github.com/vipulgiakwad07" target="_blank"><img src={github} className={'social-profile-icon'} /></a>
                             
                         </div>
                     </div>
@@ -44,8 +44,8 @@ class ProfileComponent extends React.Component {
                             {/*  To improve my skill sets in Web I like to participate in various codding 
                             programs */}
                             </p>
-                            <Button variant="contained"> DownlodCV  </Button>
-                        
+                           
+                            <Button variant="contained">  <a href='https://drive.google.com/file/d/10hv62vGrh-oq-lSeYlQSz_EnMHu4F83A/view' target="_blank"> DownlodCV </a></Button>  
                         <p className={'dashboard-profile-deatils'}>
                         
                         </p>

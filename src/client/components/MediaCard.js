@@ -163,8 +163,8 @@ const MediaCard = (props) => {
       </ul> */}
       <div className='projectlinkbutton'>
       <Button variant="outlined"> <a href='https://bloggingappheroku.herokuapp.com' target="_blank">Live Project</a></Button>
-          <Button variant="outlined"><a href='https://bloggingappheroku.herokuapp.com' target="_blank">Frontend</a></Button>
-          <Button variant="outlined">  <a href='https://bloggingappheroku.herokuapp.com' target="_blank">Backend</a></Button>
+          <Button variant="outlined"><a href='https://github.com/vipulgiakwad07/blogging/tree/main/client' target="_blank">Frontend</a></Button>
+          <Button variant="outlined">  <a href='https://github.com/vipulgiakwad07/blogging' target="_blank">Backend</a></Button>
 
            </div>
         </CardBody>
@@ -206,7 +206,7 @@ const MediaCard = (props) => {
       <Button variant="outlined"> <a href='https://photossharingapp.herokuapp.com/' target="_blank">Live Project</a></Button>
           <Button variant="outlined"><a href='https://github.com/vipulgiakwad07/photosharing/tree/main/client' target="_blank">Frontend</a></Button>
           <Button variant="outlined">  <a href='https://github.com/vipulgiakwad07/photosharing' target="_blank">Backend</a></Button>
-
+                
            </div>
     </CardBody>
       </Card>

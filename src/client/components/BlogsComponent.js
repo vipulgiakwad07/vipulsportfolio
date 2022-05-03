@@ -99,7 +99,7 @@ export default connect(stateProps, dispatchProps)(BlogsComponent);
 */
 import React from 'react';
 import "../css/index.css";
-
+import { Button } from 'reactstrap';
 import { connect } from 'react-redux';
 
 import { fetchBlogs } from '../actions';
@@ -131,7 +131,7 @@ class BlogsComponent extends React.Component {
                  expandiing my knowledge, and leveraging my learnings. I enjoy creating 
                  user experience design, inerfaces and web development  </p> 
 
-                    <Button variant="contained"> DownlodCV  </Button>
+                   
                         
              </div>
         );
