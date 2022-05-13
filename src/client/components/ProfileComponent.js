@@ -4,7 +4,7 @@ import "../css/index.css";
 
 import profile from "../images/profileimg.png";
 
-import twitter from "../images/ic_twitter.png";
+// import twitter from "../images/ic_twitter.png";
 import github from "../images/ic_github.png";
 import linkedin from "../images/ic_linkedin.png";
 import  { Button } from 'semantic-ui-react';
@@ -28,7 +28,7 @@ class ProfileComponent extends React.Component {
                         <img src={profile} className={'dashboard-profile-img'} />
                           <div className={'social-profile-container'}>
                            
-                            <a href="https://https://twitter.com/Vipulgaikwad" target="_blank"><img src={twitter} className={'social-profile-icon'} /></a>
+                            {/* <a href="https://https://twitter.com/Vipulgaikwad" target="_blank"><img src={twitter} className={'social-profile-icon'} /></a> */}
                             <a href="https://www.linkedin.com/in/vipul-gaikwad-621833102/" target="_blank"><img src={linkedin} className={'social-profile-icon'} /></a>
                             <a href="https://github.com/vipulgiakwad07" target="_blank"><img src={github} className={'social-profile-icon'} /></a>
                             

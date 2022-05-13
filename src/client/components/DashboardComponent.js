@@ -100,6 +100,14 @@ class DashboardComponent extends React.Component {
                     <div className={'dashboard-down-arrow-container'}>
                         <a href="#skills" className={'menu-item-txt'}><img src={down_arrow} className={'dashboard-down-arrow'} /></a>
                     </div>
+
+                    <div id={'blogs'} className={'blogs-parent-container'}>
+                        <div className={'skills-container'}>
+                            <span className={'dashboard-skills-label'}>ABOUT ME</span>
+                        </div>
+                        <BlogsComponent />
+                    </div>
+
                     <div id={"skills"} className={'dashboard-skill-sets-container'}>
                         <div className={'skills-container'}>
                             <span className={'dashboard-skills-label'}>Technical Skills</span>
@@ -115,12 +123,12 @@ class DashboardComponent extends React.Component {
                         <ProjectsComponent />
                         
                     </div>
-                    <div id={'blogs'} className={'blogs-parent-container'}>
+                    {/* <div id={'blogs'} className={'blogs-parent-container'}>
                         <div className={'skills-container'}>
                             <span className={'dashboard-skills-label'}>ABOUT ME</span>
                         </div>
                         <BlogsComponent />
-                    </div>
+                    </div> */}
                     <div id={'contacts'} className={'contacts-parent-container'}>
                         <div className={'skills-container'}>
                             <span className={'dashboard-skills-label'}>Contacts</span>
