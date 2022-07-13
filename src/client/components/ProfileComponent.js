@@ -45,7 +45,7 @@ class ProfileComponent extends React.Component {
                             programs */}
                             </p>
                            
-                            <Button variant="contained">  <a href='https://drive.google.com/file/d/1NXokJ84FvSoc6ZNypw7IUyY1fk92_cm9/view?usp=sharing' target="_blank"> DownlodCV </a></Button>  
+                            <Button variant="contained">  <a href='https://drive.google.com/file/d/1NXokJ84FvSoc6ZNypw7IUyY1fk92_cm9/view?usp=sharing' target="_blank"> DownloadCV </a></Button>  
                         <p className={'dashboard-profile-deatils'}>
                         
                         </p>
